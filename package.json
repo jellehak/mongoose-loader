@@ -1,0 +1,19 @@
+{
+  "name": "mongoose-loader",
+  "version": "1.0.0",
+  "description": "A helper to setup mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jellehak/mongoose-loader.git"
+  },
+  "author": "Jelle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jellehak/mongoose-loader/issues"
+  },
+  "homepage": "https://github.com/jellehak/mongoose-loader#readme"
+}
