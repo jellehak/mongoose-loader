@@ -9,7 +9,7 @@ Usage
 const mongooseLoader = require("mongoose-loader")
 
 // Load all schemas
-mongooseLoader.loadAllFrom('./schemas')
+mongooseLoader.loadSchemasFrom('./schemas')
 
 await mongooseLoader.connect("mongodb://<user>:<pass>@<name.mlab.com>:<port>/<dbname>")
 ```
