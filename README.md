@@ -5,6 +5,11 @@ Install
 
 Usage
 ---
-    const mongooseLoader = require("mongoose-loader")
+```js
+const mongooseLoader = require("mongoose-loader")
 
-    await mongooseLoader.connect("mongodb://<user>:<pass>@<name.mlab.com>:<port>/<dbname>")
+// Load all schemas
+mongooseLoader.loadAllFrom('./schemas')
+
+await mongooseLoader.connect("mongodb://<user>:<pass>@<name.mlab.com>:<port>/<dbname>")
+```
